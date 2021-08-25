@@ -206,6 +206,10 @@ content {
   flex-direction: column;
 }
 
+.project-title {
+  text-align: center;
+}
+
 #video-container {
   align-self: center;
 }
