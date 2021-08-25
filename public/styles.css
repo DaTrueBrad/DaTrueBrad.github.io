@@ -86,6 +86,8 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #252f3a;
 }
 
 main {
@@ -94,7 +96,9 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
+  margin-bottom: 10vh;
   box-shadow: 5px 5px 5px #252f3a;
+  border-radius: 10px;
 }
 
 h1 {
@@ -106,6 +110,11 @@ h2 {
   font-size: 36px;
   padding-top: 20px;
 
+}
+
+h3 {
+  text-align: center;
+  padding-top: 10px;
 }
 
 p {
@@ -144,8 +153,19 @@ content {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  /* border: 2px solid #252f3a; */
 }
 
 .skill {
-  width: 10%;
+  height: 100px;
+}
+
+#projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#video-container {
+  align-self: center;
 }
