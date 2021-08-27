@@ -103,6 +103,19 @@ header {
   background-color: rgba(30, 30, 36);
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #252f3a;
+}
+
+a:hover {
+  color: #FFA620;
+  transition: all 0.3s ease;
+}
+
 i {
   font-size: 36px;
   color: white;
